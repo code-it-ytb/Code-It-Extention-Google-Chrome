@@ -1,0 +1,25 @@
+{
+  "author": "Code It",
+  "background": {
+    "persistent": true,
+    "scripts": [ "background.js" ]
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Code It"
+  },
+  "description": "Notifie lorsque Code It sort une vidéo",
+  "homepage_url": "http://code-it.blogg.org/",
+  "icons": {
+    "128": "img/128.png",
+    "32": "img/64.png",
+    "64": "images/32.png"
+  },
+  "manifest_version": 2,
+  "name": "Code It",
+  "permissions": [ "background", "notifications", "storage", "*://code-it-ytb.github.io/*"],
+  "short_name": "Code It",
+  "update_url": "https://code-it-ytb.github.io/extention-google-chrome/update.crx",
+  "version": "1.0.0"
+}
